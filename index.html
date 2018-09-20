@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buscaminas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css"/>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Buscaminas</h2>
+        </div>
+    </div>
+    <form>
+        <div class="row">
+            <label for="filas">Ingrese el numero de filas</label>
+            <div class="col-md-12">
+                <input type="text" name="username" id ="filas"required>
+            </div>
+        </div>
+        <div class="row">
+            <label for="columnas">Ingrese el numero de columnas</label>
+            <div class="col-md-12">
+                <input type="text" name="columnas" id="columnas" required>
+            </div>
+        </div>
+        <div class="row">
+                <div id="boton" class="col-md-6">
+                    <button type="button" class="btn btn-primary" id="aceptar">Aceptar</button>
+                </div>
+        </div>
+    </form>
+</div>
+<div class="container2">
+    <div class="row">
+         <div class="col-md-12">
+            <div id="tabla" class="tabla">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
